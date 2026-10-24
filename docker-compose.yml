@@ -1,0 +1,22 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: filingscope-db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-filingscope}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-filingscope}
+      POSTGRES_DB: ${POSTGRES_DB:-filingscope}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # 볼륨이 비어 있을 때(최초 실행) 한 번만 실행된다
+      - ./docker/initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:

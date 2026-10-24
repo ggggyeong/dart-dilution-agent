@@ -1,0 +1,30 @@
+{
+  "_note": "2026-10-15 수동 확인한 정답값. 파서·계산 테스트용. 값은 XML ACODE/AUNIT 기준.",
+  "ks_rights_issue_20261015000184.xml": {
+    "document_acode": "11306",
+    "CST_CNT": 4170141, "BFR_CST_CNT": 14796480, "BFR_PST_CNT": 182815,
+    "FND_USE2": 2399999059, "FND_USE_RD": 2600000000,
+    "CI_MTH": "6 (제3자배정증자)",
+    "CST_ISS_VAL": 1199, "CST_STD_VAL": 1331, "DC_RATE": -9.95,
+    "PIN_EXT_YN": "N", "PYM_DT": "20261023", "LST_PLN_DT": "20261109",
+    "RPT_SBM": "사모발행 (1년간 보호예수)",
+    "PART": "(주)이메디슨", "FIN_CAP": -91,
+    "computed": { "dilution_pct": 21.78, "raise_krw": 4999999059 },
+    "trap": "RULE(정관 근거) 안에 '출자전환' 단어가 있음 → 현금외 판정 단어 검사는 코드 없는 <P> 자유서술에서만"
+  },
+  "ks_cb19_original_20260911000607.xml": {
+    "document_acode": "11324",
+    "DNM_SUM": 7000000000, "ISSU_MTH": "2 (사모)", "PYM_DET": "1 (현금)",
+    "EXE_PRC": 1440, "STK_CNT": 4861111, "MIN_PRC": 1008,
+    "SB_BGN_DT": "20280311", "PYM_DT": "20261001", "ISSU_NM": "이도희",
+    "outstanding_cb_table": { "DEB_KND": "15회차 CB", "BAL_AMT": 6100000000, "EXE_MN": 8504, "EXE_STK": 717308 }
+  },
+  "ks_cb19_correction_20260930000448.xml": {
+    "document_acode": "11324",
+    "is_correction": true, "original_rcept_no": "20260911000607",
+    "EXE_PRC": 1623, "STK_CNT": 4313000, "STK_RT": 42.73, "MIN_PRC": 1137,
+    "SB_BGN_DT": "20280624", "PYM_DT": "20261224", "EXP_DT": "20291224",
+    "ISSU_NM": "(주)이메디슨", "FND_USE2": 7000000000,
+    "trap": "문서 앞부분 '정정 신고' 표에 정정 전/후 값이 같이 있음 → 숫자 추출은 본문만. 또한 본문 미상환 사채 표의 전환기간이 옛 날짜로 남아 있음(공시 내부 불일치)"
+  }
+}

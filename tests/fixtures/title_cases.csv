@@ -1,0 +1,218 @@
+﻿report_nm,expected_event_type,expected_is_correction,expected_report_tag,expected_is_mixed,reason,source
+[기재정정]감자결정,none,true,기재정정,false,"감자결정은 유상증자나 전환사채 발행이 아니므로 none이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]비유동자산처분결정,none,true,기재정정,false,비유동자산 처분 결정 공시로 유상증자나 전환사채 발행과 무관하므로 none이다.,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]비유동자산취득결정,none,true,기재정정,false,"비유동자산취득결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]영업양도결정,none,true,기재정정,false,"영업양도 결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]영업양수결정,none,true,기재정정,false,"영업양수 결정 공시로 유상증자나 전환사채 발행과 무관하며, [기재정정] 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]유상증자결정,rights_issue,true,기재정정,false,기재정정 태그가 붙은 유상증자 결정 공시이며 무상증자가 결합되지 않음,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]전환사채발행결정,cb,true,기재정정,false,"'전환사채발행결정'은 전환사채 발행 결정이며, 제목 앞에 [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주식교환ㆍ이전결정,none,true,기재정정,false,"주식교환·이전 결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(감자결정),none,true,기재정정,false,"감자 결정 공시로 유상증자나 전환사채 발행에 해당하지 않으며, 제목 앞에 [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(교환사채권발행결정),none,true,기재정정,false,"교환사채권 발행 결정은 유상증자나 전환사채가 아니므로 none이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(무상증자결정),none,true,기재정정,false,"무상증자 결정 공시이므로 none이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(부도발생),none,true,기재정정,false,"부도발생 공시로 유상증자나 전환사채 발행 결정이 아니며, 기재정정 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(상각형조건부자본증권발행결정),none,true,기재정정,false,상각형조건부자본증권 발행 결정은 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(소송등의제기),none,true,기재정정,false,"소송등의제기 공시로 유상증자나 전환사채 발행 결정이 아니며, 제목 앞에 [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(신주인수권부사채권발행결정),none,true,기재정정,false,"신주인수권부사채권 발행 결정은 기준상 none이며, 기재정정 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(신주인수권부사채매수선택권행사자지정),none,true,기재정정,false,신주인수권부사채 매수선택권 행사자 지정 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(영업양도결정),none,true,기재정정,false,"영업양도결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(영업양수결정),none,true,기재정정,false,"영업양수 결정 공시로 유상증자나 전환사채 발행과 무관하며, [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(영업정지),none,true,기재정정,false,"영업정지 공시로 유상증자나 전환사채 발행이 아니며, [기재정정] 태그가 붙은 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(유무상증자결정),rights_issue,true,기재정정,true,"유무상증자 결정은 기준상 rights_issue이며 is_mixed=true이고, 제목 앞에 [기재정정] 태그가 있어 정정 공시로 판정함",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(유상증자결정),rights_issue,true,기재정정,false,제목에 '유상증자결정'이 명시되어 있고 앞에 [기재정정] 태그가 붙은 정정 공시임,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(유형자산양도결정),none,true,기재정정,false,"유형자산양도결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 앞에 [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(유형자산양수결정),none,true,기재정정,false,"유형자산양수결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 앞에 [기재정정] 태그가 붙어 있다.",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자기신주인수권부사채만기전취득결정),none,true,기재정정,false,자기신주인수권부사채 만기전 취득 결정으로 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자기신주인수권부사채매도결정),none,true,기재정정,false,자기 신주인수권부사채 매도 결정으로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자기전환사채만기전취득결정),none,true,기재정정,false,"자기전환사채 만기전 취득 결정으로 전환사채 발행이 아니므로 none이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자기전환사채매도결정),none,true,기재정정,false,자기전환사채 매도 결정은 신규 전환사채 발행이 아닌 보유 자기사채 처분이므로 기타 공시에 해당,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자기주식처분결정),none,true,기재정정,false,"자기주식처분결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 기재정정 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자기주식취득결정),none,true,기재정정,false,"자기주식취득결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 붙은 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자기주식취득신탁계약체결결정),none,true,기재정정,false,자기주식취득신탁계약 체결 결정으로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자기주식취득신탁계약해지결정),none,true,기재정정,false,"자기주식취득신탁계약 해지 결정으로 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(자본으로인정되는채무증권발행결정),none,true,기재정정,false,자본으로 인정되는 채무증권(신종자본증권 등) 발행 결정으로 유상증자나 전환사채 발행 결정이 아니므로 none,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(전환사채권발행결정),cb,true,기재정정,false,"제목에 '전환사채권발행결정'이 포함된 전환사채 발행 결정 공시이며, [기재정정] 태그가 붙은 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(전환사채매수선택권행사자지정),none,true,기재정정,false,"전환사채 매수선택권 행사자 지정 공시로, 전환사채 발행 결정이 아니므로 none으로 분류함",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(제3자의전환사채매수선택권행사),none,true,기재정정,false,제3자의 전환사채 매수선택권 행사 공시로 전환사채 발행 결정이 아니므로 none,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(제3자의전환주식매수선택권행사),none,true,기재정정,false,제3자의 전환주식매수선택권 행사에 관한 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(주권관련사채권양도결정),none,true,기재정정,false,주권관련사채권 양도 결정으로 유상증자나 전환사채 발행 결정이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(주권관련사채권양수결정),none,true,기재정정,false,"주권관련사채권 양수 결정으로 유상증자나 전환사채 발행 결정이 아니므로 none이며, [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(주식교환ㆍ이전결정),none,true,기재정정,false,"주식교환·이전 결정 공시로 유상증자나 전환사채 발행 결정이 아니므로 none이며, [기재정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(중요한자산양수도결정(기타)),none,true,기재정정,false,"중요한 자산양수도 결정 공시로 유상증자나 전환사채 발행과 무관하며, [기재정정] 태그가 붙은 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(채권은행등의관리절차개시),none,true,기재정정,false,"채권은행 등의 관리절차 개시 공시로 유상증자나 전환사채 발행과 무관하며, [기재정정] 태그가 붙은 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(타법인주식및출자증권양도결정),none,true,기재정정,false,타법인주식 및 출자증권 양도결정으로 유상증자나 전환사채 발행과 무관한 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(타법인주식및출자증권양수결정),none,true,기재정정,false,"타법인주식및출자증권양수결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 붙은 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(풋백옵션등계약체결결정),none,true,기재정정,false,풋백옵션 등 계약체결 결정 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(해산사유발생),none,true,기재정정,false,"해산사유발생 공시로 유상증자나 전환사채 발행이 아니며, [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(해외증권시장주권등매매거래정지등조치),none,true,기재정정,false,"해외증권시장 주권등 매매거래정지 등 조치 공시로 유상증자나 전환사채 발행 결정이 아니며, [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(해외증권시장주권등상장결정),none,true,기재정정,false,"해외증권시장 주권 상장 결정 공시로, 유상증자나 전환사채 발행 결정에 해당하지 않음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(회사분할결정),none,true,기재정정,false,"회사분할결정 공시로 유상증자나 전환사채 발행에 해당하지 않으며, 기재정정 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(회사분할합병결정),none,true,기재정정,false,"회사분할합병 결정 공시로 유상증자나 전환사채 발행에 해당하지 않으며, 기재정정 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(회사합병결정),none,true,기재정정,false,"회사합병결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]주요사항보고서(회생절차개시신청),none,true,기재정정,false,"회생절차개시신청 공시로 유상증자나 전환사채 발행 결정이 아니며, 기재정정 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]증여결정,none,true,기재정정,false,"증여결정은 유상증자나 전환사채 발행 결정이 아닌 기타 공시이며, [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]채무인수결정,none,true,기재정정,false,"채무인수결정은 유상증자나 전환사채 발행과 무관한 기타 공시이며, 앞에 [기재정정] 태그가 있다.",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]타법인주식및출자증권처분결정,none,true,기재정정,false,"타법인주식 및 출자증권 처분 결정으로 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]타법인주식및출자증권취득결정,none,true,기재정정,false,"타법인주식 및 출자증권 취득 결정으로 유상증자나 전환사채 발행과 무관한 기타 공시이며, 기재정정 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]타인에의한당사의채무면제,none,true,기재정정,false,"타인에 의한 채무면제 공시로 유상증자나 전환사채 발행 결정이 아니며, 기재정정 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]타인을위한담보제공결정,none,true,기재정정,false,"타인을 위한 담보제공 결정으로 유상증자나 전환사채 발행과 무관한 공시이며, 기재정정 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]타인을위한채무보증결정,none,true,기재정정,false,"타인을 위한 채무보증 결정으로 유상증자나 전환사채 발행과 무관한 공시이며, 기재정정 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]해산사유발생,none,true,기재정정,false,"해산사유발생 공시로 유상증자나 전환사채 발행과 무관하며, 제목 앞에 [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]회사분할결정,none,true,기재정정,false,"회사분할결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 앞에 [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]회사분할합병결정,none,true,기재정정,false,"회사분할합병 결정 공시로 유상증자나 전환사채 발행에 해당하지 않으며, 제목 앞에 [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]회사합병결정,none,true,기재정정,false,"회사합병결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 제목 앞에 [기재정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[기재정정]회생절차개시결정,none,true,기재정정,false,"회생절차개시결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [기재정정] 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[연장결정]주요사항보고서(자기주식취득신탁계약체결결정),none,true,연장결정,false,자기주식취득신탁계약 체결 결정의 연장 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과][기재정정]주요사항보고서(유상증자결정),rights_issue,true,"정정명령부과,기재정정",false,"제목에 유상증자결정이 명시되어 있고, 앞에 정정명령부과·기재정정 태그가 붙은 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과][기재정정]주요사항보고서(자기주식처분결정),none,true,"정정명령부과,기재정정",false,"자기주식처분결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 제목 앞에 대괄호 태그 두 개가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과][기재정정]주요사항보고서(전환사채권발행결정),cb,true,"정정명령부과,기재정정",false,전환사채권발행결정 공시이며 앞에 [정정명령부과][기재정정] 태그가 있어 정정 공시로 판정,llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과][기재정정]주요사항보고서(주식교환ㆍ이전결정),none,true,"정정명령부과,기재정정",false,"주식교환·이전 결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 앞에 정정 관련 태그 두 개가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과][기재정정]주요사항보고서(회사합병결정),none,true,"정정명령부과,기재정정",false,회사합병결정 공시로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과][첨부정정]주요사항보고서(주식교환ㆍ이전결정),none,true,"정정명령부과,첨부정정",false,주식교환·이전 결정은 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과][첨부정정]주요사항보고서(회사합병결정),none,true,"정정명령부과,첨부정정",false,"회사합병결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 앞에 정정명령부과·첨부정정 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과]주요사항보고서(감자결정),none,true,정정명령부과,false,"감자결정 공시로 유상증자나 전환사채 발행이 아니며, 제목 앞에 [정정명령부과] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과]주요사항보고서(교환사채권발행결정),none,true,정정명령부과,false,"교환사채권 발행 결정은 유상증자나 전환사채가 아니므로 none이며, 제목 앞에 [정정명령부과] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과]주요사항보고서(유상증자결정),rights_issue,true,정정명령부과,false,"제목에 유상증자결정이 명시되어 있고, 앞에 [정정명령부과] 태그가 붙어 있어 정정 대상으로 판정함",llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과]주요사항보고서(자기주식처분결정),none,true,정정명령부과,false,자기주식처분결정은 유상증자나 전환사채 발행이 아닌 기타 공시이다.,llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과]주요사항보고서(전환사채권발행결정),cb,true,정정명령부과,false,전환사채권발행결정 공시이며 제목 앞에 [정정명령부과] 태그가 있음,llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과]주요사항보고서(타법인주식및출자증권양수결정),none,true,정정명령부과,false,"타법인주식및출자증권양수결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 앞에 [정정명령부과] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[정정명령부과]주요사항보고서(회사합병결정),none,true,정정명령부과,false,"회사합병결정 공시로 유상증자나 전환사채 발행에 해당하지 않으며, 제목 앞에 [정정명령부과] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(감자결정),none,true,첨부정정,false,"감자결정 공시로 유상증자나 전환사채 발행이 아니며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(교환사채권발행결정),none,true,첨부정정,false,"교환사채권 발행 결정은 유상증자나 전환사채가 아니므로 none이며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(무상증자결정),none,true,첨부정정,false,"무상증자 결정 공시로 유상증자나 전환사채 발행이 아니므로 none이며, [첨부정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(부도발생),none,true,첨부정정,false,"부도발생 공시로 유상증자나 전환사채 발행 결정이 아니며, 앞에 [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(소송등의제기),none,true,첨부정정,false,"소송등의 제기 공시로 유상증자나 전환사채 발행 결정이 아니며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(신주인수권부사채권발행결정),none,true,첨부정정,false,"신주인수권부사채권 발행결정은 유상증자나 전환사채가 아닌 기타 공시이며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(영업양도결정),none,true,첨부정정,false,"영업양도 결정 공시로 유상증자나 전환사채 발행과 무관하며, 첨부정정 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(영업양수결정),none,true,첨부정정,false,"영업양수결정 공시로 유상증자나 전환사채 발행과 무관하며, [첨부정정] 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(영업정지),none,true,첨부정정,false,"영업정지 관련 주요사항보고서로 유상증자나 전환사채 발행 결정이 아니며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(유무상증자결정),rights_issue,true,첨부정정,true,"유무상증자 결정은 유상증자에 포함되므로 rights_issue이고 is_mixed=true이며, [첨부정정] 태그가 있어 정정 공시로 판정함",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(유상증자결정),rights_issue,true,첨부정정,false,"제목에 유상증자결정이 명시되어 있고, [첨부정정] 태그가 붙은 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(유형자산양도결정),none,true,첨부정정,false,"유형자산양도결정 공시로 유상증자나 전환사채 발행과 무관하며, 제목 앞에 [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(유형자산양수결정),none,true,첨부정정,false,"유형자산양수결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 제목 앞에 [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(자기신주인수권부사채만기전취득결정),none,true,첨부정정,false,자기신주인수권부사채 만기전 취득 결정으로 유상증자나 전환사채 발행이 아니므로 none,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(자기전환사채만기전취득결정),none,true,첨부정정,false,"자기전환사채 만기전 취득 결정은 전환사채 발행이 아니므로 none이며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(자기전환사채매도결정),none,true,첨부정정,false,"자기전환사채 매도 결정은 전환사채 발행 결정이 아니므로 기타 공시(none)에 해당하며, [첨부정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(자기주식처분결정),none,true,첨부정정,false,"자기주식처분결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(자기주식취득결정),none,true,첨부정정,false,"자기주식취득결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(자기주식취득신탁계약체결결정),none,true,첨부정정,false,자기주식취득신탁계약 체결 결정으로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(자기주식취득신탁계약해지결정),none,true,첨부정정,false,자기주식취득신탁계약해지 결정으로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(자본으로인정되는채무증권발행결정),none,true,첨부정정,false,자본으로인정되는채무증권(신종자본증권 등) 발행결정으로 유상증자나 전환사채 발행 결정이 아니므로 기타 공시에 해당함,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(전환사채권발행결정),cb,true,첨부정정,false,전환사채권발행결정에 해당하며 [첨부정정] 태그가 붙은 정정 공시임,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(전환사채매수선택권행사자지정),none,true,첨부정정,false,"전환사채 매수선택권 행사자 지정 공시로, 전환사채 발행 결정이 아니므로 none에 해당함",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(제3자의전환사채매수선택권행사),none,true,첨부정정,false,"제3자의 전환사채 매수선택권 행사 공시로, 전환사채 발행 결정이 아니므로 none으로 분류함",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(주권관련사채권양도결정),none,true,첨부정정,false,주권관련사채권 양도 결정은 유상증자나 전환사채 발행 결정이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(주식교환ㆍ이전결정),none,true,첨부정정,false,주식교환ㆍ이전결정은 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(중요한자산양수도결정(기타)),none,true,첨부정정,false,"중요한 자산양수도 결정 공시로 유상증자나 전환사채 발행과 무관하며, 앞에 [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(타법인주식및출자증권양도결정),none,true,첨부정정,false,타법인주식 및 출자증권 양도 결정으로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(타법인주식및출자증권양수결정),none,true,첨부정정,false,타법인주식 및 출자증권 양수결정으로 유상증자나 전환사채 발행 공시가 아님,llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(해산사유발생),none,true,첨부정정,false,"해산사유발생 공시로 유상증자나 전환사채 발행 결정이 아니므로 none이며, 첨부정정 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(회사분할결정),none,true,첨부정정,false,"회사분할결정 공시로 유상증자나 전환사채 발행이 아니며, 첨부정정 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(회사분할합병결정),none,true,첨부정정,false,"회사분할합병 결정 공시로 유상증자나 전환사채 발행에 해당하지 않으며, [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(회사합병결정),none,true,첨부정정,false,"회사합병결정 공시로 유상증자나 전환사채 발행에 해당하지 않으며, 앞에 [첨부정정] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부정정]주요사항보고서(회생절차개시신청),none,true,첨부정정,false,"회생절차개시신청 공시로 유상증자나 전환사채 발행과 무관하며, [첨부정정] 태그가 있어 정정 공시임",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(감자결정),none,true,첨부추가,false,"감자결정 공시로 유상증자나 전환사채 발행 결정이 아니므로 none이며, 제목 앞에 [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(교환사채권발행결정),none,true,첨부추가,false,"교환사채권 발행 결정은 유상증자나 전환사채가 아니므로 none이며, [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(신주인수권부사채권발행결정),none,true,첨부추가,false,"신주인수권부사채권 발행결정은 유상증자나 전환사채가 아니므로 none이며, [첨부추가] 태그가 있어 정정 공시로 판정",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(영업양도결정),none,true,첨부추가,false,"영업양도결정 공시로 유상증자나 전환사채 발행이 아니며, 제목 앞에 [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(영업정지),none,true,첨부추가,false,"영업정지에 관한 주요사항보고서로, 유상증자나 전환사채 발행과 관련이 없는 기타 공시임",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(유무상증자결정),rights_issue,true,첨부추가,true,"유무상증자 결정은 기준상 rights_issue이며 is_mixed=true이고, 제목 앞에 [첨부추가] 태그가 있어 is_correction=true",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(유상증자결정),rights_issue,true,첨부추가,false,유상증자결정 공시이며 제목 앞에 [첨부추가] 태그가 있음,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(유형자산양도결정),none,true,첨부추가,false,유형자산양도결정 공시로 유상증자나 전환사채 발행과 무관하여 none으로 분류함,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(유형자산양수결정),none,true,첨부추가,false,"유형자산양수결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 제목 앞에 [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(자기전환사채만기전취득결정),none,true,첨부추가,false,"자기전환사채 만기전 취득 결정은 전환사채 발행이 아니므로 none이며, [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(자기전환사채매도결정),none,true,첨부추가,false,자기전환사채 매도결정은 신규 전환사채 발행 결정이 아니므로 기타 공시(none)로 분류,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(자기주식처분결정),none,true,첨부추가,false,"자기주식처분결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, 제목 앞에 [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(자기주식취득신탁계약해지결정),none,true,첨부추가,false,"자기주식취득 신탁계약 해지 결정으로, 유상증자나 전환사채 발행에 해당하지 않는 기타 공시임",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(자본으로인정되는채무증권발행결정),none,true,첨부추가,false,자본으로인정되는채무증권(신종자본증권 등) 발행결정으로 유상증자나 전환사채 발행 결정이 아니므로 none으로 분류함,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(전환사채권발행결정),cb,true,첨부추가,false,"전환사채권 발행 결정 공시이며, 제목 앞에 [첨부추가] 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(전환사채매수선택권행사자지정),none,true,첨부추가,false,"전환사채 매수선택권 행사자 지정 공시로, 전환사채 발행 결정이 아니므로 none으로 분류",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(제3자의전환사채매수선택권행사),none,true,첨부추가,false,제3자의 전환사채 매수선택권 행사는 전환사채 발행 결정이 아니므로 none으로 분류함,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(주권관련사채권양도결정),none,true,첨부추가,false,주권관련사채권 양도 결정은 유상증자나 전환사채 발행 결정이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(주권관련사채권양수결정),none,true,첨부추가,false,"주권관련사채권 양수 결정은 유상증자나 전환사채 발행 결정이 아닌 기타 공시이며, [첨부추가] 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(주식교환ㆍ이전결정),none,true,첨부추가,false,주식교환ㆍ이전 결정 공시로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(중요한자산양수도결정(기타)),none,true,첨부추가,false,중요한 자산양수도 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(타법인주식및출자증권양도결정),none,true,첨부추가,false,타법인주식및출자증권양도결정은 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(타법인주식및출자증권양수결정),none,true,첨부추가,false,타법인주식 및 출자증권 양수 결정으로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(회사분할결정),none,true,첨부추가,false,"회사분할결정 공시로 유상증자나 전환사채 발행 결정에 해당하지 않으며, 제목 앞에 [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(회사분할합병결정),none,true,첨부추가,false,"회사분할합병결정은 유상증자나 전환사채 발행이 아닌 기타 공시이며, [첨부추가] 태그가 붙어 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(회사합병결정),none,true,첨부추가,false,"회사합병결정 공시로 유상증자나 전환사채 발행 결정이 아니며, 제목 앞에 [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+[첨부추가]주요사항보고서(회생절차개시신청),none,true,첨부추가,false,"회생절차개시신청 공시로 유상증자나 전환사채 발행과 무관하며, [첨부추가] 태그가 있음",llm:claude-opus-5-5:title-prompt-v1
+감자결정,none,false,,false,감자 결정 공시로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+무상증자결정,none,false,,false,무상증자 결정은 유상증자나 전환사채 발행이 아니므로 none으로 분류함,llm:claude-opus-5-5:title-prompt-v1
+비유동자산처분결정,none,false,,false,"비유동자산 처분 결정 공시로, 유상증자나 전환사채 발행과 관련이 없음",llm:claude-opus-5-5:title-prompt-v1
+비유동자산취득결정,none,false,,false,비유동자산취득결정은 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+수증,none,false,,false,사용자 결정,user
+영업양도결정,none,false,,false,영업양도 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+영업양수결정,none,false,,false,영업양수 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+영업전부의임대ㆍ경영위임등결정,none,false,,false,영업 전부의 임대·경영위임 등 결정으로 유상증자나 전환사채 발행과 무관한 공시,llm:claude-opus-5-5:title-prompt-v1
+영업전부의임대ㆍ경영위임등의계약변경ㆍ해지결정,none,false,,false,영업 임대·경영위임 계약 변경·해지 결정으로 유상증자나 전환사채 발행과 무관한 공시,llm:claude-opus-5-5:title-prompt-v1
+유상증자결정,rights_issue,false,,false,"제목이 '유상증자결정'으로 유상증자 결정 공시이며, 대괄호 태그가 없어 정정 공시가 아님",llm:claude-opus-5-5:title-prompt-v1
+전환사채발행결정,cb,false,,false,"'전환사채발행결정'은 전환사채 발행 결정이고, 제목 앞에 대괄호 태그가 없다.",llm:claude-opus-5-5:title-prompt-v1
+주식교환ㆍ이전결정,none,false,,false,주식교환·이전 결정은 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(감자결정),none,false,,false,감자결정 공시로 유상증자나 전환사채 발행 결정이 아니므로 none으로 분류함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(교환사채권발행결정),none,false,,false,교환사채권 발행 결정으로 전환사채나 유상증자가 아니므로 none,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(무상증자결정),none,false,,false,무상증자 결정 공시로 유상증자나 전환사채 발행이 아니므로 none에 해당함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(부도발생),none,false,,false,부도발생 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(상각형조건부자본증권발행결정),none,false,,false,상각형조건부자본증권 발행 결정은 유상증자나 전환사채 발행이 아니므로 기타 공시에 해당함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(소송등의제기),none,false,,false,"소송등의제기 공시로 유상증자나 전환사채 발행 결정이 아니며, 제목 앞에 대괄호 태그도 없음",llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(신주인수권부사채권발행결정),none,false,,false,신주인수권부사채권 발행 결정으로 유상증자나 전환사채가 아닌 기타 공시에 해당함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(신주인수권부사채매수선택권행사자지정),none,false,,false,신주인수권부사채 매수선택권 행사자 지정 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(신탁계약에의한자기주식처분결정),none,false,,false,신탁계약에 의한 자기주식 처분 결정으로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(영업양도결정),none,false,,false,영업양도 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(영업양수결정),none,false,,false,영업양수 결정 공시로 유상증자나 전환사채 발행과 무관하며 제목 앞 대괄호 태그도 없음,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(영업정지),none,false,,false,영업정지 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(외국법인등의주식등에대한외국에서의공개매수),none,false,,false,외국법인 주식 등에 대한 외국에서의 공개매수 관련 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(유무상증자결정),rights_issue,false,,true,"유무상증자 결정 공시로 rights_issue에 해당하며 혼합형이고, 대괄호 태그가 없음",llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(유상증자결정),rights_issue,false,,false,태그 없는 유상증자 결정 공시이며 무상증자 병행 표기가 없음,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(유형자산양도결정),none,false,,false,유형자산양도결정은 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(유형자산양수결정),none,false,,false,유형자산양수결정은 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자기신주인수권부사채만기전취득결정),none,false,,false,자기신주인수권부사채 만기전 취득 결정으로 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자기신주인수권부사채매도결정),none,false,,false,자기신주인수권부사채 매도 결정으로 유상증자나 전환사채 발행이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자기전환사채만기전취득결정),none,false,,false,자기전환사채 만기전 취득 결정으로 전환사채 발행이 아니므로 기타 공시에 해당,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자기전환사채매도결정),none,false,,false,자기전환사채 매도 결정은 전환사채 신규 발행이 아닌 보유 자기사채 처분이므로 기타 공시로 분류,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자기주식처분결정),none,false,,false,자기주식처분결정은 유상증자나 전환사채 발행 결정이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자기주식취득결정),none,false,,false,자기주식취득결정은 유상증자나 전환사채 발행 결정이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자기주식취득신탁계약체결결정),none,false,,false,자기주식취득신탁계약 체결 결정으로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자기주식취득신탁계약해지결정),none,false,,false,자기주식취득 신탁계약 해지 결정으로 유상증자나 전환사채 발행과 무관한 공시,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(자본으로인정되는채무증권발행결정),none,false,,false,"자본으로 인정되는 채무증권(신종자본증권 등) 발행 결정으로, 유상증자나 전환사채 발행 결정이 아니다.",llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(전환사채권발행결정),cb,false,,false,제목이 전환사채권 발행 결정이며 앞에 대괄호 태그가 없음,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(전환사채매수선택권행사자지정),none,false,,false,"전환사채 매수선택권 행사자 지정 공시로, 전환사채 발행 결정이 아니므로 none으로 판정",llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(전환주식매수선택권행사자지정),none,false,,false,전환주식매수선택권 행사자 지정 공시로 유상증자나 전환사채 발행 결정이 아니므로 none,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(제3자의신주인수권부사채매수선택권행사),none,false,,false,제3자의 신주인수권부사채 매수선택권 행사 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(제3자의전환사채매수선택권행사),none,false,,false,"제3자의 전환사채 매수선택권 행사 공시로, 전환사채 발행 결정이 아니므로 기타 공시에 해당함",llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(제3자의전환주식매수선택권행사),none,false,,false,제3자의 전환주식매수선택권 행사 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(주권관련사채권양도결정),none,false,,false,주권관련사채권 양도 결정으로 유상증자나 전환사채 발행 결정이 아니므로 none,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(주권관련사채권양수결정),none,false,,false,주권관련사채권 양수 결정은 유상증자나 전환사채 발행 결정이 아닌 사채권 취득 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(주식교환ㆍ이전결정),none,false,,false,주식교환·이전 결정 공시로 유상증자나 전환사채 발행 결정에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(중요한자산양수도결정(기타)),none,false,,false,중요한 자산양수도 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(채권은행등의관리절차개시),none,false,,false,채권은행 등의 관리절차 개시 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(채권은행등의관리절차중단),none,false,,false,채권은행 등의 관리절차 중단 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(타법인주식및출자증권양도결정),none,false,,false,타법인주식 및 출자증권 양도 결정으로 유상증자나 전환사채 발행과 무관한 공시,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(타법인주식및출자증권양수결정),none,false,,false,타법인주식 및 출자증권 양수 결정으로 유상증자나 전환사채 발행과 무관한 공시임,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(풋백옵션등계약체결결정),none,false,,false,풋백옵션 등 계약체결 결정으로 유상증자나 전환사채 발행 결정이 아닌 기타 공시,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(해산사유발생),none,false,,false,"해산사유발생 공시로 유상증자나 전환사채 발행 결정이 아니며, 제목 앞에 대괄호 태그도 없음",llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(해외증권시장주권등매매거래정지등조치),none,false,,false,해외증권시장 주권 매매거래정지 등 조치에 관한 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(해외증권시장주권등상장),none,false,,false,해외증권시장 주권 상장 결정 공시로 유상증자나 전환사채 발행 결정이 아니므로 기타 공시에 해당함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(해외증권시장주권등상장결정),none,false,,false,해외증권시장 주권 등 상장 결정 공시로 유상증자나 전환사채 발행 결정이 아니므로 기타 공시에 해당,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(해외증권시장주권등상장폐지),none,false,,false,"해외증권시장 주권 등 상장폐지 결정 공시로, 유상증자나 전환사채 발행과 관련이 없음",llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(해외증권시장주권등상장폐지결정),none,false,,false,해외증권시장 주권 등 상장폐지 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(회사분할결정),none,false,,false,회사분할 결정 공시로 유상증자나 전환사채 발행에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(회사분할합병결정),none,false,,false,회사분할합병 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(회사합병결정),none,false,,false,회사합병결정 공시로 유상증자나 전환사채 발행 결정이 아니므로 none으로 분류,llm:claude-opus-5-5:title-prompt-v1
+주요사항보고서(회생절차개시신청),none,false,,false,회생절차개시신청 공시로 유상증자나 전환사채 발행 결정이 아니므로 none,llm:claude-opus-5-5:title-prompt-v1
+증여결정,none,false,,false,증여결정은 유상증자나 전환사채 발행과 무관한 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+채권은행등의관리절차종료,none,false,,false,채권은행 등의 관리절차 종료 공시로 유상증자나 전환사채 발행 결정이 아님,llm:claude-opus-5-5:title-prompt-v1
+채무인수결정,none,false,,false,채무인수결정은 유상증자나 전환사채 발행이 아닌 그 밖의 공시에 해당함,llm:claude-opus-5-5:title-prompt-v1
+타법인주식및출자증권처분결정,none,false,,false,타법인 주식 및 출자증권 처분 결정으로 유상증자나 전환사채 발행과 무관한 공시임,llm:claude-opus-5-5:title-prompt-v1
+타법인주식및출자증권취득결정,none,false,,false,타법인 주식 및 출자증권 취득 결정으로 유상증자나 전환사채 발행과 무관한 공시임,llm:claude-opus-5-5:title-prompt-v1
+타인에대한채무면제결정,none,false,,false,타인에 대한 채무면제 결정으로 유상증자나 전환사채 발행과 무관한 공시,llm:claude-opus-5-5:title-prompt-v1
+타인에의한당사의채무면제,none,false,,false,타인에 의한 채무면제 공시로 유상증자나 전환사채 발행 결정에 해당하지 않음,llm:claude-opus-5-5:title-prompt-v1
+타인을위한담보제공결정,none,false,,false,타인을 위한 담보제공 결정으로 유상증자나 전환사채 발행과 무관한 공시임,llm:claude-opus-5-5:title-prompt-v1
+타인을위한채무보증결정,none,false,,false,타인을 위한 채무보증 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+해산사유발생,none,false,,false,해산사유발생 공시로 유상증자나 전환사채 발행 결정이 아닌 기타 공시임,llm:claude-opus-5-5:title-prompt-v1
+회사분할결정,none,false,,false,회사분할 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+회사분할합병결정,none,false,,false,회사분할합병 결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1
+회사합병결정,none,false,,false,"회사합병결정은 유상증자나 전환사채 발행 결정이 아닌 기타 공시이며, 제목 앞에 대괄호 태그가 없음",llm:claude-opus-5-5:title-prompt-v1
+회생절차개시결정,none,false,,false,회생절차개시결정 공시로 유상증자나 전환사채 발행 결정과 무관함,llm:claude-opus-5-5:title-prompt-v1
+회생절차폐지결정,none,false,,false,회생절차폐지결정 공시로 유상증자나 전환사채 발행과 무관함,llm:claude-opus-5-5:title-prompt-v1

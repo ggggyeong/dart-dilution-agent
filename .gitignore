@@ -1,0 +1,18 @@
+# 비밀 정보 — 실제 키는 .env에만
+.env
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# 수집한 원본 데이터 · DB · 실행 결과 · 평가 질문지 (재현은 스크립트로)
+data/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
